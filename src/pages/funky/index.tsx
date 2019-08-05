@@ -17,9 +17,7 @@ class Funky extends Component<FunkyProps, FunkyState> {
       this.state = {}
   }
 
-  componentDidMount() {
-      const aBdcE = 1
-  }
+  componentDidMount() {}
 
   render() {
       return <View className={styles.funkyMain}>FUNKY</View>
