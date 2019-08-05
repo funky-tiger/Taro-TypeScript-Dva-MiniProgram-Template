@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['taro', 'prettier', 'prettier/@typescript-eslint', 'eslint-config-prettier'],
   rules: {
-    'no-unused-vars': ['warn', { varsIgnorePattern: 'Taro' }],
+    'no-unused-vars': ['error', { varsIgnorePattern: 'Taro' }],
     // "no-console": ["error", { "allow": ["warn", "error", "info"] }],
     'no-var': 'error',
     'no-extra-semi': 'error',
